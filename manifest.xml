@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<name>Elgg Markdown Wiki Highlight Code</name>
+	<author>Emmanuel Salomon @ManUtopiK</author>
+	<version>0.1b</version>
+	<description>A plugin to highlight code for plugin wiki using markdow synthax.</description>
+	<website>https://github.com/ManUtopiK/elgg-markdown_wiki_highlight_code</website>
+	<copyright></copyright>
+	<license>GNU Affero General Public License, version 3 or later</license>
+
+	<requires>
+		<type>elgg_release</type>
+		<version>1.8</version>
+	</requires>
+	
+	<requires>
+		<type>plugin</type>
+		<name>elgg-markdown_wiki</name>
+	</requires>
+	
+	<requires>
+		<type>priority</type>
+		<plugin>elgg-markdown_wiki</plugin>
+		<priority>after</priority>
+	</requires>
+
+	<activate_on_install>true</activate_on_install>
+
+</plugin_manifest>
